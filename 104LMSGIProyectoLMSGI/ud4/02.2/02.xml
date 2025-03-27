@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "02.dtd">
 <!--Nombre:Marcos Fernandez-->
 <!--Descripcion:Primer XML-->
-<!DOCTYPE biblioteca SYSTEM "02.dtd">
-<biblioteca>
-    <libro idlibro="libro1" genero="novela">
-        <titulo>Punto para los locos</titulo>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="02.xsd">
+    <libro id="libro1" genero="novela" idioma="Inglés" formato="digital">
+        <titulo>1984</titulo>
         <autores>
             <autor>
-                <nombre>Angel</nombre>
-                <apellido>Martinez</apellido>
-                <nacionalidad>España</nacionalidad>
+                <nombre>George </nombre>
+                <apellido>Orwell</apellido>
+                <nacionalidad>Británica</nacionalidad>
             </autor>
         </autores>
-        <anio>2024</anio>
+        <anio>1949</anio>
     </libro>
-    <libro idlibro="libro2" genero="novela">
-        <titulo>La luna</titulo>
+    <libro id="libro2" genero="ciencia ficción" formato="impreso" referencia="libro1">
+        <titulo>Dune</titulo>
         <autores>
             <autor>
-                <nombre>Angel</nombre>
-                <apellido>Martinez</apellido>
-                <nacionalidad>España</nacionalidad>
+                <nombre>Frank</nombre>
+                <apellido>Herbert</apellido>
+                <nacionalidad>Estadounidense</nacionalidad>
             </autor>
         </autores>
-        <anio>2021</anio>
+        <anio>1965</anio>
     </libro>
-</biblioteca>
+</biblioteca> 

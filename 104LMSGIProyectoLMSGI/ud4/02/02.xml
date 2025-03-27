@@ -3,26 +3,26 @@
 <!--Descripcion:Primer XML-->
 <!DOCTYPE biblioteca SYSTEM "02.dtd">
 <biblioteca>
-    <libro idlibro="libro1" genero="novela">
+    <libro id="Libro1" genero="novela">
         <titulo>Punto para los locos</titulo>
         <autores>
             <autor>
                 <nombre>Angel</nombre>
-                <apellido>Martinez</apellido>
-                <nacionalidad>España</nacionalidad>
+                <apellido>Martín</apellido>
+                <nacionalidad>Español</nacionalidad>
             </autor>
         </autores>
         <anio>2024</anio>
     </libro>
-    <libro idlibro="libro2" genero="novela">
-        <titulo>La luna</titulo>
+    <libro id="Libro2" genero="novela" referencia="Libro1">
+        <titulo>La Luna</titulo>
         <autores>
             <autor>
                 <nombre>Angel</nombre>
-                <apellido>Martinez</apellido>
-                <nacionalidad>España</nacionalidad>
+                <apellido>Martín</apellido>
+                <nacionalidad>Español</nacionalidad>
             </autor>
         </autores>
-        <anio>2021</anio>
+        <anio>2020</anio>
     </libro>
 </biblioteca>

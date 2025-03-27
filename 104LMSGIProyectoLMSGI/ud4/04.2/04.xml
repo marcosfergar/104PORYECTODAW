@@ -6,7 +6,7 @@
     xmlns:car="http://www.example.com/carreras"
      xsi:schemaLocation="
             http://www.example.com/universidad universidad.xsd
-            http://www.example.com/alumnos alumno.xsd 
+            http://www.example.com/alumnos alumnos.xsd 
             http://www.example.com/asignaturas asignaturas.xsd
             http://www.example.com/carreras carreras.xsd">
     <nombre year="1964">Universidad de Victoria</nombre>
