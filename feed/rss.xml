@@ -5,6 +5,12 @@
         <link>https://www.w3schools.com</link>
         <description>Servidor web Marcos_Fernández_García DAW1</description>
         <item>
+            <title>Nuevo-proyecto_ED</title>
+            <link>http://daw104.ieslossauces.es</link>
+            <description>Se añadio nuevo apartado para el proyecto de entornos y varios ejercicios</description>
+            <img src="/webroot/media/img/obras/Encontruccion.png" alt="en construccion"/>
+        </item>
+        <item>
             <title>Advertencia_Enconstruccion</title>
             <link>http://daw104.ieslossauces.es</link>
             <description>Se una imagen que esta presente en los apartados con fallos o en proceso de desarrollo</description>
