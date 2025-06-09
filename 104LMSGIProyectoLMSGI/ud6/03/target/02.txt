@@ -1,4 +1,0 @@
-Clean Code
-Learning XML
-The Pragmatic Programmer
-XQuery Kick Start
